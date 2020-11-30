@@ -1,3 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "http://theme.catosplace.co.nz/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Catosplace Hugo Theme"
+theme = "catosplace"
+
+# Google Analytics
+googleAnalytics = "UA-157870869-1"
+
+[params]
+# MetaData
+description = "Catosplace Hugo Theme"
