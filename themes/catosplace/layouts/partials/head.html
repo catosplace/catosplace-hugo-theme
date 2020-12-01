@@ -18,6 +18,13 @@
 
     {{ partial "favicon.html" . }}
 
+    {{ "<!-- css -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ absURL "css/bulma.min.css" }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+
+    {{ "<!-- js -->" | safeHTML }}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     {{ "<!-- google analytics -->" | safeHTML }}
     {{ if not (in (string .Site.BaseURL) "localhost") }}
         {{ template "_internal/google_analytics_async.html" . }}

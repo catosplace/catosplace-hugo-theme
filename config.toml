@@ -6,6 +6,19 @@ theme = "catosplace"
 # Google Analytics
 googleAnalytics = "UA-157870869-1"
 
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+
+[[menu.social]]
+name = "Twitter"
+url = "https://twitter.com/catosplace_nz"
+pre = "twitter"
+
 [params]
 # MetaData
 description = "Catosplace Hugo Theme"
