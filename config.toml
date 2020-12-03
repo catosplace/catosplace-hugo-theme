@@ -30,3 +30,6 @@ url = "/privacy"
 [params]
 # MetaData
 description = "Catosplace Hugo Theme"
+
+author = "Pete Sellars"
+authorImage = "/images/pete.png"
