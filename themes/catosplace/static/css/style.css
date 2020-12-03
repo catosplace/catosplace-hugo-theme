@@ -28,6 +28,11 @@ main {
   max-width: 800px;
 }
 
+.narrow-background {
+  display: table;
+  padding: 0.1em;
+}
+
 .inline-svg {
     display: inline-block;
     height: 1.15rem;
