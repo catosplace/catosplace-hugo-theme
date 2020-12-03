@@ -19,6 +19,14 @@ name = "Twitter"
 url = "https://twitter.com/catosplace_nz"
 pre = "twitter"
 
+[[menu.footer]]
+name = "About"
+url = "/about"
+
+[[menu.footer]]
+name = "Privacy"
+url = "/privacy"
+
 [params]
 # MetaData
 description = "Catosplace Hugo Theme"
