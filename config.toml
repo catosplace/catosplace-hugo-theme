@@ -2,6 +2,7 @@ baseURL = "http://theme.catosplace.co.nz/"
 languageCode = "en-us"
 title = "Catosplace Hugo Theme"
 theme = "catosplace"
+paginate = 8
 
 # Google Analytics
 googleAnalytics = "UA-157870869-1"
