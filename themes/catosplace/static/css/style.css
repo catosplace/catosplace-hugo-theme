@@ -28,6 +28,10 @@ main {
   max-width: 800px;
 }
 
+.card {
+  height: 100;
+}
+
 .narrow-background {
   display: table;
   padding: 0.1em;
