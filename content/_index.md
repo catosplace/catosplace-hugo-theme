@@ -6,5 +6,24 @@ images:
 - favicon.ico
 draft: true
 ---
-# Heading
-This is sample content
+<style>
+.main-image {
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/hero.jpg)
+}
+</style>
+<section class="hero is-large is-dark main-image">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h2 class="title is-1">Are you ready?</h2>
+    </div>
+  </div>
+</section>
+{{< section >}}
+## Some Title
+
+My paragraph
+{{< /section >}}
+
+{{< blogposts count=6 >}}

@@ -40,8 +40,10 @@ url = "/contact"
 name = "Privacy"
 url = "/privacy"
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmarks]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [related]
 threshold = 0
