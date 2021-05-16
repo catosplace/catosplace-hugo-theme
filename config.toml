@@ -58,6 +58,9 @@ weight = 100
 name = "date"
 weight = 10
 
+[permalinks]
+  blog = "/blog/:filename/"
+
 [params]
 # MetaData
 description = "Catosplace Hugo Theme"

@@ -7,6 +7,6 @@ images:
 categories:
   - Web development
   - Blogging
-draft: true
+draft: false
 ---
 ## Another Post

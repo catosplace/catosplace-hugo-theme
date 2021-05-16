@@ -34,6 +34,9 @@
                 {{ end }}
                 <div class="content">
                     {{ .Content }}
+                    {{ if .Draft }}
+                    <span><b>DRAFT {{ .WordCount }} WORDS</b></span>
+                    {{ end }}
                 </div>
             </div>
         </div>
